@@ -14,14 +14,40 @@ O problema é:
 ## PYTHON PROMPTS
 ### CREATING SOME PYTHON SCRIPT WITHOUT COMMENTS
 ````
-Create a python script with a function, without import libraries, 
-without comments, and all in English to solve the following problem.
+You are the best developer. Create a Python function, to solve the
+problem tha I`ll tell you. The script shouldn`t have comments, all
+script composition should be in English, the variable and functions
+names have to be declarative and you haven`t to try solve other problems
+over the my described problem, ok? Can I give you the problem?
+````
+### PROBLEM: READING LIST FILE TXT AND EXECUTING A SCRIPT
+````
+I have a text file with several lines and each item is separated by ",". 
+I need a script that read the file name that is declarated in a variable.
+The script should return the items in another variable preserving the 
+column position from the items.
+Remember, without comments.
+
+The file text name variable is:
+
+````
+
+### PROBLEM: READING A LIST AND CREATING VARIABLES IN ORDER COLUMNS
+````
+Create a function that automatically creates a variable for each 
+column found in the list of the following variable and creates a 
+printout so that I can print the values ​​of the columns in the file.
+Remember, without comments.
+
+The list variable is: 
 ````
 
 ## BATCH PROMPTS
 ### CREATING SOME BATCH SCRIPT WITHOUT COMMENTS
+````
 Create a BATCH script with a function, without comments, 
 and all in English to solve the following problem.
+````
 
 ## SEVEREAL PROMPTS
 ### CREATING README FILES BASED IN A MAIN SCRIPT FILE
