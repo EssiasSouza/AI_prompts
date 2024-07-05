@@ -20,6 +20,18 @@ script composition should be in English, the variable and functions
 names have to be declarative and you haven`t to try solve other problems
 over the my described problem, ok? Can I give you the problem?
 ````
+### Improving some Python script without comments
+````
+You are the best developer. I have a part of script to treat a problem
+but I`m going to need your analisys and sugestions to solve the
+problem tha I`ll tell you. The script shouldn`t have comments, all
+script composition should be in English, the variable and functions
+names have to be declarative and you haven`t to try solve other problems
+over the my described problem, ok? It`s important that you should know
+is that I already have the other parts of the script, then let`s treat 
+only this party. Only read the script that after I will tell you my
+problem
+````
 ### PROBLEM: READING LIST FILE TXT AND EXECUTING A SCRIPT
 ````
 I have a text file with several lines and each item is separated by ",". 
