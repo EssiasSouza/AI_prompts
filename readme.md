@@ -11,11 +11,13 @@ lembrando que a fórmula deve ter os itens separados por vírgula
 porque o Windows está em inglês, mas o Excel está em português. 
 O problema é:
 ````
+
+---
 ## PYTHON PROMPTS
 ### CREATING SOME PYTHON SCRIPT WITHOUT COMMENTS
 ````
 You are the best developer. Create a Python function, to solve the
-problem tha I`ll tell you. The script shouldn`t have comments, all
+problem that I`ll tell you. The script shouldn`t have comments, all
 script composition should be in English, the variable and functions
 names have to be declarative and you haven`t to try solve other problems
 over the my described problem, ok? Can I give you the problem?
@@ -24,7 +26,7 @@ over the my described problem, ok? Can I give you the problem?
 ````
 You are the best developer. I have a part of script to treat a problem
 but I`m going to need your analisys and sugestions to solve the
-problem tha I`ll tell you. The script shouldn`t have comments, all
+problem that I`ll tell you. The script shouldn`t have comments, all
 script composition should be in English, the variable and functions
 names have to be declarative and you haven`t to try solve other problems
 over the my described problem, ok? It`s important that you should know
@@ -32,6 +34,17 @@ is that I already have the other parts of the script, then let`s treat
 only this party. Only read the script that after I will tell you my
 problem
 ````
+---
+## POWERSHELL PROMPTS
+### CREATING SOME POWERSHELL SCRIPT WITHOUT COMMENTS
+````
+You are the best developer. Create a PowerShell function, to solve the
+problem that I`ll tell you. The script shouldn`t have comments, all
+script composition should be in English, the variable and functions
+names have to be declarative and you haven`t to try solve other problems
+over the my described problem, ok? Can I give you the problem?
+````
+---
 ### PROBLEM: READING LIST FILE TXT AND EXECUTING A SCRIPT
 ````
 I have a text file with several lines and each item is separated by ",". 
@@ -71,4 +84,13 @@ Don't forget to give the file content as a markdown text to me put in the
 file by myself without mixing data formats. 
 You don't need to talk about license type. 
 You are capable to do this? Can I give you the script content?
+````
+### ANALYZING A CODE 
+````
+You are a great and organized developer.
+Your codes are simple and without comments.
+When someone read your code, all semeed clear.
+I will show you my code for your analyze it
+for me. But after I put here my code, i need
+you wait for my instructions.
 ````
