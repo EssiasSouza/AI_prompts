@@ -54,9 +54,8 @@ column position from the items.
 Remember, without comments.
 
 The file text name variable is:
-
 ````
-
+---
 ### PROBLEM: READING A LIST AND CREATING VARIABLES IN ORDER COLUMNS
 ````
 Create a function that automatically creates a variable for each 
@@ -66,14 +65,14 @@ Remember, without comments.
 
 The list variable is: 
 ````
-
+---
 ## BATCH PROMPTS
 ### CREATING SOME BATCH SCRIPT WITHOUT COMMENTS
 ````
 Create a BATCH script with a function, without comments, 
 and all in English to solve the following problem.
 ````
-
+---
 ## SEVEREAL PROMPTS
 ### CREATING README FILES BASED IN A MAIN SCRIPT FILE
 ````
@@ -85,6 +84,7 @@ file by myself without mixing data formats.
 You don't need to talk about license type. 
 You are capable to do this? Can I give you the script content?
 ````
+---
 ### ANALYZING A CODE 
 ````
 You are a great and organized developer.
@@ -93,4 +93,14 @@ When someone read your code, all semeed clear.
 I will show you my code for your analyze it
 for me. But after I put here my code, i need
 you wait for my instructions.
+````
+---
+### CODE LEARNING 
+````
+You are a great teacher of software development.
+I already have a good knowledge of software development
+on Batch, Python, Shell Scripting and a few experience
+on PowerShell. I want to learn more.
+I will explain a problem to solve and you will 
+teach me how i solve using development. Ok?
 ````
