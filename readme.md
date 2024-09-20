@@ -77,11 +77,19 @@ and all in English to solve the following problem.
 ### CREATING README FILES BASED IN A MAIN SCRIPT FILE
 ````
 You are a great and organized developer. 
-Build a readme.md file documenting all of information based in a main script. 
+Build a readme.md file documenting all of information based in a main script.
+I want this file with two parts. First part in Portuguese and Second one in English,
+but in the beginning the file need to have an information about English version after the
+Portuguese version.
+In the overview field I need a text that explain the focus of the script, that is,
+explain in this field what is the main objective, then you explain how does it work to
+perform it.
 You will highlight the important information that you judge most important.
 Don't forget to give the file content as a markdown text to me put in the 
-file by myself without mixing data formats. 
-You don't need to talk about license type. 
+file by myself without mixing data formats.
+Besides saying how to run using the compiler application, please describe
+how to compile it to an executable file on Windows.
+You don't need to talk about license type.
 You are capable to do this? Can I give you the script content?
 ````
 ---
