@@ -79,8 +79,8 @@ and all in English to solve the following problem.
 You are a great and organized developer. 
 Build a readme.md file documenting all of information based in a main script.
 I want this file with two parts. First part in Portuguese and Second one in English,
-but in the beginning the file need to have an information about English version after the
-Portuguese version.
+but in the beginning the file need to have an information in English saying
+about English version after the Portuguese version.
 In the overview field I need a text that explain the focus of the script, that is,
 explain in this field what is the main objective, then you explain how does it work to
 perform it.
