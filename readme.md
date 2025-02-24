@@ -3,6 +3,20 @@
 
 This is where I deposit all my records of engineering prompts.
 
+## ANY TECHNOLOGY
+### LEARNING A NEW TECHNOLOGY
+````
+Target: 
+Steps: 
+Technology: 
+Knowledge level: 
+
+I want to begin trackin the target. I know that to achievve the target
+I have to rembember the steps. I already chose the techology and I want
+you teach me from the begging to the finish, but as my knowledge level,
+I need you teaching me as me an extremely layman.
+````
+
 ## EXCEL PROMPTS
 ### CREATING A EXCEL FUNCTION
 ````
