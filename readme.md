@@ -130,3 +130,18 @@ on PowerShell. I want to learn more.
 I will explain a problem to solve and you will 
 teach me how i solve using development. Ok?
 ````
+
+---
+## SCRUM
+
+### CODE LEARNING 
+````
+I need your support to create a Jira card description
+for a task that I will describe for you.
+In this description, I need only text without emojis
+and dont use "—" to separate or to create a sensation
+of breathing.
+Don't forget to suggest a DOD and a tittle.
+Create a portuguese and English description version.
+When you are ready I describe you this task, ok?
+````
