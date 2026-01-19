@@ -134,7 +134,7 @@ teach me how i solve using development. Ok?
 ---
 ## SCRUM
 
-### CODE LEARNING 
+### JIRA TASK/HISTORY DESCRIPTION 
 ````
 I need your support to create a Jira card description
 for a task that I will describe for you.
