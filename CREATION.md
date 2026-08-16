@@ -153,3 +153,206 @@ Antes de finalizar, verifique se:
 * não existem elementos visuais desnecessários
 * as cores utilizadas seguem o padrão visual informado
 ```
+
+# SLIDES
+
+```
+Crie uma aplicação web de apresentação em formato OnePage, executável diretamente no navegador, usando apenas HTML, CSS e JavaScript em um único arquivo HTML.
+
+Conceito
+A aplicação deve funcionar como uma apresentação semelhante ao PowerPoint, porém em formato vertical.
+Cada seção da apresentação deve ocupar exatamente 100% da viewport, funcionando como um slide.
+A navegação principal deve acontecer através do scroll vertical. Ao rolar a página, o sistema deve fazer uma transição suave para o próximo ou para o slide anterior, criando a sensação de que cada slide "sobe" ou "desce" na tela.
+O usuário deve conseguir acompanhar uma linha de raciocínio visualmente, como se estivesse assistindo a uma apresentação.
+
+Identidade visual
+Utilize exclusivamente esta paleta principal:
+
+Background principal: #123C47
+Cor de destaque: #FF6B00
+Branco: #FFFFFF
+Preto: #000000
+O background predominante deve ser #123C47.
+Utilize #FF6B00 para elementos de destaque, títulos importantes, linhas, indicadores, ícones, números, estados ativos e elementos interativos.
+Utilize #FFFFFF para textos principais e elementos que precisam de alto contraste.
+Utilize #000000 somente quando fizer sentido visualmente, evitando excesso.
+A estética deve ser:
+
+Minimalista
+Tecnológica
+Moderna
+Brutalista
+Elegante
+Alto contraste
+Poucos elementos por tela
+Tipografia grande
+Forte hierarquia visual
+Bastante espaço negativo
+Aparência profissional
+Evite aparência de template genérico de PowerPoint.
+
+Estrutura dos slides
+Cada slide deve possuir:
+
+Altura mínima de 100vh
+Largura de 100vw
+Conteúdo centralizado verticalmente
+Grid visual consistente
+Tipografia responsiva
+Hierarquia clara entre título, subtítulo e conteúdo
+Cada slide deve representar uma etapa do raciocínio.
+Não coloque excesso de informação em uma única tela.
+O conteúdo deve entrar progressivamente, permitindo que o usuário compreenda a apresentação apenas olhando para a tela.
+
+Navegação
+Implemente:
+
+Scroll vertical com comportamento suave
+CSS scroll-snap para alinhar cada slide à viewport
+Navegação por teclado usando Arrow Up, Arrow Down, Page Up, Page Down, Home e End
+Navegação por mouse
+Suporte a touch/mobile
+Indicador lateral mostrando em qual slide o usuário está
+O slide ativo deve possuir destaque visual usando #FF6B00
+O indicador deve permitir clicar diretamente em qualquer slide
+Não permita que pequenos movimentos do mouse façam a apresentação pular vários slides.
+A navegação deve parecer controlada e intencional.
+
+Animações
+Os elementos de cada slide devem possuir animações de entrada quando o slide se tornar ativo.
+Utilize animações como:
+
+Fade in
+Fade up
+Fade down
+Scale
+Slide
+Blur progressivo
+Transformações sutis
+As animações devem ser rápidas e elegantes.
+Evite animações exageradas.
+O objetivo é criar sensação de apresentação profissional, não de site cheio de efeitos.
+
+Interação com o mouse
+Os elementos interativos devem responder visualmente ao movimento do mouse.
+Implemente efeitos como:
+
+Hover
+Pequeno deslocamento seguindo o cursor
+Scale sutil
+Mudança de brilho
+Mudança de borda
+Alteração de opacidade
+Efeito de profundidade/parallax muito sutil
+Glow utilizando #FF6B00
+Cards e elementos importantes podem reagir ao movimento do mouse utilizando uma pequena rotação 3D baseada na posição do cursor.
+Esses efeitos devem ser sutis e nunca prejudicar a leitura.
+
+Efeito de cursor
+Crie, se fizer sentido, um cursor visual customizado utilizando CSS/JavaScript.
+O cursor pode possuir:
+
+Pequeno ponto central
+Anel externo
+Expansão ao passar sobre elementos interativos
+Mudança de estado em links, cards e botões
+O cursor customizado deve desaparecer automaticamente em dispositivos touch.
+
+Parallax
+Utilize parallax de forma extremamente sutil.
+Elementos decorativos do background podem se mover em velocidades diferentes conforme o movimento do mouse ou scroll.
+Não transforme a apresentação em uma animação excessiva.
+O conteúdo principal deve permanecer estável e legível.
+
+Elementos visuais
+Utilize recursos como:
+
+Linhas finas
+Grids
+Círculos
+Pontos
+Blocos geométricos
+Números grandes
+Indicadores
+Pequenos elementos técnicos
+Microtipografia
+Bordas finas
+Glow discreto em #FF6B00
+Esses elementos devem funcionar como elementos de composição visual.
+Não utilize imagens apenas para preencher espaço.
+
+Tipografia
+Utilize uma fonte moderna e legível.
+Priorize fontes sans-serif.
+Os títulos devem ser grandes e fortes.
+Use diferentes pesos tipográficos para criar hierarquia.
+Sempre mantenha excelente contraste entre texto e background.
+
+Responsividade
+A apresentação deve funcionar corretamente em:
+
+Desktop
+Notebook
+Tablet
+Smartphone
+No mobile:
+
+Reduza tamanhos tipográficos proporcionalmente
+Preserve a hierarquia visual
+Ajuste grids para uma coluna
+Remova ou simplifique efeitos que possam prejudicar performance
+Desative o cursor customizado
+Preserve a navegação por swipe/scroll
+Performance
+A aplicação deve ser leve.
+Não utilize frameworks ou bibliotecas externas sem necessidade.
+Priorize:
+
+CSS puro
+JavaScript vanilla
+CSS transforms
+CSS transitions
+IntersectionObserver
+requestAnimationFrame quando necessário
+Evite loops JavaScript desnecessários.
+Respeite prefers-reduced-motion e reduza ou desative animações quando o usuário tiver essa preferência configurada no sistema operacional.
+
+Arquitetura
+Organize o HTML de forma clara:
+
+Header/global controls
+Navigation
+Slides/sections
+Footer/global information
+Cada slide deve possuir um identificador único.
+Exemplo:
+slide-01
+slide-02
+slide-03
+slide-04
+Crie uma estrutura JavaScript que permita facilmente adicionar, remover ou reorganizar slides posteriormente.
+
+Experiência final
+A sensação final deve ser de uma apresentação premium.
+O usuário deve sentir que está navegando por uma apresentação interativa, e não simplesmente por uma página web longa.
+Cada scroll deve representar uma mudança de pensamento.
+A composição visual deve conduzir os olhos do usuário para o elemento mais importante de cada slide.
+Utilize #123C47 como identidade visual dominante e #FF6B00 como elemento de energia e destaque.
+
+Importante
+Entregue tudo em um único arquivo HTML.
+Não utilize backend.
+Não utilize build system.
+Não utilize React, Vue ou outros frameworks.
+O arquivo deve funcionar simplesmente abrindo-o diretamente no navegador.
+Inclua comentários no código indicando onde posso alterar:
+
+Cores
+Tipografia
+Conteúdo dos slides
+Quantidade de slides
+Velocidade das animações
+Intensidade dos efeitos de mouse
+Configurações de navegação
+Antes de finalizar, teste mentalmente a experiência de navegação entre todos os slides e garanta que não existam conflitos entre scroll, snap, animações e navegação por teclado.
+```
