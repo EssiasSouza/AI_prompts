@@ -1,4 +1,4 @@
-# Preenchimento
+# Preenchimento Video / Blog (Usando transcrição)
 
 ```
 Atue como um Especialista Sênior em SEO para YouTube, SEO On-Page para Blogs e Copywriter de Alta Conversão. 
