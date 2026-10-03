@@ -362,7 +362,7 @@ Antes de finalizar, teste mentalmente a experiência de navegação entre todos 
 ---
 ### Prompt que funcionou no Gemini
 ```
-Você receberá 3 imagens de referência.
+Você receberá 2 imagens de referência.
 
 IMAGEM 1 - IMAGEM PRINCIPAL
 Esta é a fotografia principal. Ela contém um homem segurando um aparelho. Esta imagem deve ser PRESERVADA.
