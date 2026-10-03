@@ -359,7 +359,173 @@ Antes de finalizar, teste mentalmente a experiência de navegação entre todos 
 ## THUMBNAILS
 
 # YouTube Thumbnail — Strict Asset Preservation & Widescreen Composition
+---
+### Prompt que funcionou no Gemini
+```
+Você receberá 3 imagens de referência.
 
+IMAGEM 1 - IMAGEM PRINCIPAL
+Esta é a fotografia principal. Ela contém um homem segurando um aparelho. Esta imagem deve ser PRESERVADA.
+
+IMAGEM 2 - OBJETO DE SUBSTITUIÇÃO
+Esta imagem contém a embalagem/caixa do produto Classic Player 2.0. Ela será usada APENAS para substituir o aparelho que está atualmente nas mãos do homem da Imagem 1.
+
+OBJETIVO PRINCIPAL
+
+Edite a IMAGEM 1 mantendo o homem ORIGINAL absolutamente intacto e substitua SOMENTE o aparelho que ele está segurando pela embalagem apresentada na IMAGEM 2.
+
+A substituição deve parecer uma fotografia real, como se o homem tivesse realmente segurado aquela embalagem no momento em que a fotografia foi tirada.
+
+REGRAS ABSOLUTAS SOBRE O HOMEM
+
+NÃO recrie o homem.
+NÃO substitua o homem.
+NÃO gere um novo rosto.
+NÃO altere o rosto.
+NÃO altere cabelo, barba, pele, idade ou expressão.
+NÃO altere o corpo, postura ou anatomia.
+NÃO altere as roupas.
+NÃO altere mãos, braços ou posição dos dedos, exceto o mínimo absolutamente necessário para integrar visualmente a nova embalagem.
+NÃO altere o fundo original.
+NÃO altere iluminação, enquadramento ou perspectiva da fotografia original sem necessidade.
+
+A identidade visual do homem deve permanecer 100% baseada na IMAGEM 1.
+
+Pense nesta tarefa como uma edição localizada de fotografia, e NÃO como uma geração de uma nova fotografia.
+
+SUBSTITUIÇÃO DO PRODUTO
+
+Remova visualmente apenas o aparelho que o homem está segurando.
+
+Coloque no lugar dele a embalagem da IMAGEM 2.
+
+Preserve a aparência real da embalagem:
+
+* formato
+* proporções
+* cores
+* logotipo
+* textos
+* gráficos
+* detalhes da embalagem
+* perspectiva
+* escala
+
+A embalagem deve respeitar exatamente a posição em que o aparelho original estava.
+
+Faça a embalagem parecer fisicamente presente na fotografia, considerando:
+
+* perspectiva correta
+* escala correta
+* iluminação coerente
+* sombras naturais
+* reflexos naturais
+* oclusão correta pelas mãos
+* contato físico correto entre mãos e embalagem
+
+Não faça a embalagem parecer flutuando ou artificialmente sobreposta.
+
+THUMBNAIL DO YOUTUBE
+
+Depois de realizar a substituição do produto, transforme a composição em uma thumbnail profissional para YouTube.
+
+Adicionar o texto:
+
+"Classic Player 2.0 Review"
+
+O texto deve ser grande, extremamente legível e visualmente impactante mesmo quando a thumbnail estiver pequena.
+
+IMPORTANTE:
+
+Não coloque o texto sobre o homem.
+
+Identifique automaticamente a região mais vazia da composição, especialmente o espaço onde o homem NÃO está presente, e coloque o texto nessa área.
+
+O texto deve complementar a fotografia e não esconder o homem ou o produto.
+
+Crie uma hierarquia visual forte entre:
+
+1. Homem
+2. Classic Player 2.0
+3. Texto "Classic Player 2.0 Review"
+
+O texto deve ter aparência de thumbnail profissional de YouTube, com tipografia forte, contraste elevado e tratamento visual que aumente a legibilidade.
+
+Não use um design genérico ou excessivamente simples.
+
+DIREÇÃO VISUAL
+
+Quero uma thumbnail com aparência profissional, chamativa e com forte apelo visual.
+
+Faça uma composição visual semelhante a thumbnails profissionais de tecnologia e música, com:
+
+* profundidade
+* contraste
+* iluminação cinematográfica
+* separação clara entre primeiro plano e fundo
+* destaque visual para o produto
+* texto com forte presença
+* composição dinâmica
+* aparência premium
+* acabamento fotográfico profissional
+
+Evite:
+
+* fundos planos
+* linhas retas decorativas sem função
+* excesso de elementos gráficos
+* aparência de template
+* aparência de imagem gerada por IA
+* excesso de efeitos
+* visual infantil ou caricatural
+* poluição visual
+
+O resultado deve continuar parecendo uma fotografia real, apenas transformada em uma thumbnail profissional.
+
+PRIORIDADE DAS REGRAS
+
+Em caso de conflito entre instruções, siga esta ordem:
+
+1. Preservar o homem original da IMAGEM 1.
+2. Substituir somente o aparelho pela embalagem da IMAGEM 2.
+3. Manter a embalagem fiel às imagens de referência.
+4. Preservar a fotografia e sua composição original.
+5. Adicionar o texto "Classic Player 2.0 Review".
+6. Melhorar a imagem para aparência de thumbnail profissional.
+
+NÃO gere uma nova pessoa.
+NÃO troque o homem.
+NÃO mude a identidade do homem.
+NÃO faça uma variação da fotografia.
+NÃO interprete criativamente o homem.
+
+A tarefa é EDITAR a fotografia existente, não recriá-la.
+
+RESULTADO FINAL
+
+Entregue uma imagem em alta resolução, formato horizontal 16:9, otimizada visualmente para uma thumbnail de YouTube.
+
+A imagem deve parecer uma fotografia real e profissional, com o mesmo homem da IMAGEM 1 segurando a embalagem da IMAGEM 2 e o texto "Classic Player 2.0 Review" ocupando inteligentemente o espaço negativo da composição.
+
+Após concluir a edição, aplique um tratamento final de pós-produção fotográfica profissional:
+
+* aumentar a nitidez de forma seletiva
+* melhorar contraste e microcontraste
+* corrigir exposição se necessário
+* melhorar a separação entre sujeito, produto e fundo
+* aplicar color grading cinematográfico sutil
+* aumentar a sensação de profundidade
+* realçar detalhes importantes
+* preservar tons de pele naturais
+* preservar a aparência real do produto
+* aplicar acabamento premium de fotografia comercial
+* garantir que o texto permaneça extremamente legível
+
+O tratamento final deve aumentar o impacto visual SEM modificar a identidade, aparência ou características do homem original.
+
+IMPORTANTE: NÃO altere o homem durante a etapa de pós-produção.
+
+```
 ```
 You are an award-winning Creative Director and Senior Brand Designer specialized in YouTube technology channels.
 
